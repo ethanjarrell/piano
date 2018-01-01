@@ -1,0 +1,88 @@
+
+.piano {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.key {
+fill: red; 
+}
+
+
+.group1 {
+}
+
+.sharps {
+  color: gray;
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: bold;
+  z-index: 14;
+  width: 200px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-top: -250px;
+}
+
+.keysNumbers {
+  color: lightgray;
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: bold;
+  z-index: 10;
+  width: 740px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-top: -110px;
+}
+
+.keysNotes {
+  color: gray;
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: bold;
+  z-index: 13;
+  width: 740px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-top: -150px;
+}
+
+.white {
+  fill:white;
+  stroke:black;
+  stroke-width:1;
+  cursor:pointer;
+  margin:2px;
+}
+
+.active {
+  fill:#9e9e9e;
+  stroke:lightblue;
+  cursor:pointer;
+  stroke-width:1;
+  outline: black solid 1px;
+}
+
+.black {
+  fill:black;
+  stroke-width:1;
+  cursor:pointer;
+  margin:2px;
+}
+
+.black:hover {
+  fill:#515151;
+  stroke:lightblue;
+  stroke-width:1;
+  outline: black solid 1px;
+}
+
